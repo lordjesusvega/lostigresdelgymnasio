@@ -38,6 +38,22 @@ code {
 
 .nav-title {
    font-family: 'Brooklyn';
+   white-space: nowrap;
    font-weight: bold;
    font-style: normal;
+   font-size: 100%;
+   text-align: center;
+   width: 100%;
+}
+.nav-subtitle {
+   font-family: 'Brooklyn';
+   font-weight: bold;
+   font-style: normal;
+   text-align: center;
+   width: 100%;
+   font-size: 1em;
+}
+
+.heroImage {
+  height: 85vh;
 }
