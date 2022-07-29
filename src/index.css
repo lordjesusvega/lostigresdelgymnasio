@@ -47,6 +47,7 @@ code {
    width: 100%;
    font-size: 24px;
 }
+
 .nav-subtitle {
    font-family: 'Brooklyn';
    font-weight: normal;
@@ -67,7 +68,10 @@ code {
 }
 
 .hero-image-container {
-  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 @media (max-width:629px) {
