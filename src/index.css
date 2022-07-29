@@ -49,6 +49,7 @@ code {
 }
 .nav-subtitle {
    font-family: 'Brooklyn';
+   font-weight: normal;
    font-style: normal;
    text-align: center;
    width: 100%;
@@ -57,9 +58,23 @@ code {
 
 .heroImage {
   max-width: 100%;
+  filter: grayscale(100%);
   height: 85vh;
 }
 
+.heroImage:hover {
+  filter: grayscale(0%);
+}
+
+.hero-image-container {
+  width: 100vw;
+}
+
+@media (max-width:629px) {
+  .one, .three {
+    display: none;
+  }
+}
 
 .Nav {
   padding: 12px;
